@@ -1,2 +1,8 @@
 # tgcf-on-gh-action
-Running tgcf periodically in past mode for free using GitHub Actions.
+
+Running [tgcf](https://github.com/aahnik/tgcf) periodically in past mode for free using GitHub Actions.
+
+- Link to tgcf repository: [aahnik/tgcf](https://github.com/aahnik/tgcf)
+- How to use this:
+  - Article: [wiki/Run-tgcf-in-past-mode-periodically](https://github.com/aahnik/tgcf/wiki/Run-tgcf-in-past-mode-periodically)
+  - Video: Coming soon!

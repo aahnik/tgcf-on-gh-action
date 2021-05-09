@@ -1,0 +1,39 @@
+# this is sample configuration file
+# change this to suit your needs
+# link to tgcf original repo https://github.com/aahnik/tgcf
+# learn how to configure tgcf https://git.io/J3NuZ
+# learn how to run on github actions https://git.io/J3NuY
+# this is a yaml file, learn about yaml syntax here https://git.io/J3NuL
+# MIT LICENSE
+# AAHNIK 2021
+
+########################################
+
+forwards:
+  # this section defines all the sources and destinations
+  - source: tg_cf # username/link/chatid of the source
+    dest: [me] # list of chat ids of the destinations
+    # me means, the messages will be saved in your Saved Messages in telegram
+    offset: 0 # from where to start (0 means from the first message of source)
+    # offset will automatically be updated when the program runs
+  # - source: -1001
+  #   dest: []
+  #   offset: 0
+  # add more sources if you wish
+
+past:
+  delay: 3 # wait for 3s after forwarding each message
+
+plugins:
+  # specify the plugins you want to use
+  filter:
+    text:
+      blacklist: ["badword"]
+
+# read full documentation of plugins here https://git.io/J3NuC
+
+##########################
+
+# make sure you understand the configuration before you run
+# edit this file to suit your needs
+# read more here https://github.com/aahnik/tgcf
