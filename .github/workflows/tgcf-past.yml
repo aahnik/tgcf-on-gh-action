@@ -23,4 +23,5 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "main"
+          branch: main
+          message: push files changed
