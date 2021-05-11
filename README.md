@@ -6,3 +6,7 @@ Running [tgcf](https://github.com/aahnik/tgcf) periodically in past mode for fre
 - How to use this:
   - Article: [wiki/Run-tgcf-in-past-mode-periodically](https://github.com/aahnik/tgcf/wiki/Run-tgcf-in-past-mode-periodically)
   - Video: Coming soon!
+
+
+- To change the forwarding configuration edit [tgcf.config.yml](/tgcf.config.yml)
+- To change the schedule edit [workflow file](.github/workflows/tgcf-past.yml)
