@@ -1,3 +1,3 @@
 FROM aahnik/tgcf
 
-CMD tgcf
+CMD poetry run tgcf
