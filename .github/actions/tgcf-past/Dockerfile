@@ -1,3 +1,3 @@
 FROM aahnik/tgcf
 
-CMD . /app/.venv/bin/activate && tgcf
+CMD tgcf --loud
