@@ -1,5 +1,10 @@
 # tgcf-on-gh-action
 
+
+
+Warning: this is no longer supported with the latest version of tgcf
+---
+
 Running [tgcf](https://github.com/aahnik/tgcf) periodically in past mode for free using GitHub Actions.
 
 - Link to tgcf repository: [aahnik/tgcf](https://github.com/aahnik/tgcf)
